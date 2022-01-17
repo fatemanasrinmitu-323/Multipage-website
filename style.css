@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar a{
+    color: rgba(134, 74, 74,0.7);
+}
+.navbar{
+    background:rgba(77, 168, 221,0.8);
+}
+
+/* carousel section start here */
+.carousel-item img{
+    width: 100%;
+    height: 550px;
+}
+#get-ready{
+    background-image: url(img/pic5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#video{
+    background-image: url(img/laptop.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 100%;
+    position: relative;
+}
+.dark-overly{
+    background:#000;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.fab{
+    color: #ff0000;
+}
+#footer{
+    background: black;
+    color: white;
+}
+
+
+/* about page start here */
+#second{
+    background-image: url(img/photo1\ \(3\).jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.double-doll{
+    height: 450px;
+    width: 350px;
+}
+
+#testimonial .slick-prev:before{
+   color:#000; 
+}
+
+#testimonial .slick-next:before{
+    color:#000; 
+ }
+/* services page start here */
+#view{
+    background-image: url(img/photo1\ \(4\).jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* blog page */
+#views{
+    background-image: url(img/photo1\ \(5\).jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* contact page */
+#contact{
+    background-image: url(img/photo1\ \(2\).jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:575px){
+    .button{
+        margin-left: 90px;
+    }
+}
+@media(max-width:767px){
+    .grp{
+      display:flex;
+      flex-direction: row;
+    }
+    .fas{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
